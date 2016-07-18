@@ -6,7 +6,7 @@ var app = express();
 //static files
 app.use(express.static('public'));
 app.use(express.static('node_modules/angular'));
-app.use(express.static('node_modules/angular-route'));
+app.use(express.static('node_modules/angular-animate'));
 app.use(express.static('node_modules/bootstrap'));
 
 //express routes

@@ -14,9 +14,15 @@ h2{
 }
 h2:hover{
   text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  -webkit-box-shadow: 14px 14px 23px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 14px 23px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 14px 23px 0px rgba(0,0,0,0.75);
 }
 .even{
   background-color: rgb(255,255,255);
+}
+.even:hover{
+
 }
 .odd{
   background-color: rgb(225, 225, 225);
@@ -65,5 +71,17 @@ fieldset[disabled] .btn-xi.active {
 
 .btn-xi .badge {
   color: #89ECDA;
-  background-color: #575757; 
+  background-color: #575757;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.ng-hide-remove{
+  animation:0.5s fadeIn; ease;
 }
