@@ -13,7 +13,7 @@
   <body ng-controller="MainController">
     <header><h1>Xi Cohort</h1></header>
     <main>
-      <button ng-hide="showStudents" class="btn btn-lg btn-xi" ng-click="getStudents()">Get Students</button>
+      <button ng-hide="showStudents" class="btn btn-lg btn-xi" ng-click="getStudents()">Display Students</button>
       <span ng-repeat="student in students" ng-class-odd="'odd'" ng-class-even="'even'" class="student">
         <h2 ng-show="showStudents">{{student}}</h2>
         <img ng-src="../img/Xi/{{student}}.jpg" width="250px" />
