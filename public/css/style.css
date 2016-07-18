@@ -27,7 +27,7 @@ h2:hover{
 .odd{
   background-color: rgb(225, 225, 225);
 }
-
+/*from bootstrap button generator*/
 .btn-xi {
   color: #575757;
   background-color: #89ECDA;
@@ -73,6 +73,7 @@ fieldset[disabled] .btn-xi.active {
   color: #89ECDA;
   background-color: #575757;
 }
+/*from animate.css*/
 @keyframes fadeIn {
   from {
     opacity: 0;
