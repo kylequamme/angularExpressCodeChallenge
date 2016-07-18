@@ -1,0 +1,69 @@
+body{
+  padding: 10px 2%;
+  background-color: #3bd6c6;
+}
+header{
+  text-align: center;
+}
+h1{
+  font-family: 'Baloo Thambi', cursive;
+}
+h2{
+  width: 100%;
+  padding: 5px;
+}
+h2:hover{
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+.even{
+  background-color: rgb(255,255,255);
+}
+.odd{
+  background-color: rgb(225, 225, 225);
+}
+
+.btn-xi {
+  color: #575757;
+  background-color: #89ECDA;
+  border-color: #40E0D0;
+}
+
+.btn-xi:hover,
+.btn-xi:focus,
+.btn-xi:active,
+.btn-xi.active,
+.open .dropdown-toggle.btn-xi {
+  color: #575757;
+  background-color: #43E8D8;
+  border-color: #40E0D0;
+}
+
+.btn-xi:active,
+.btn-xi.active,
+.open .dropdown-toggle.btn-xi {
+  background-image: none;
+}
+
+.btn-xi.disabled,
+.btn-xi[disabled],
+fieldset[disabled] .btn-xi,
+.btn-xi.disabled:hover,
+.btn-xi[disabled]:hover,
+fieldset[disabled] .btn-xi:hover,
+.btn-xi.disabled:focus,
+.btn-xi[disabled]:focus,
+fieldset[disabled] .btn-xi:focus,
+.btn-xi.disabled:active,
+.btn-xi[disabled]:active,
+fieldset[disabled] .btn-xi:active,
+.btn-xi.disabled.active,
+.btn-xi[disabled].active,
+fieldset[disabled] .btn-xi.active {
+  background-color: #89ECDA;
+  border-color: #40E0D0;
+}
+
+.btn-xi .badge {
+  color: #89ECDA;
+  background-color: #575757; 
+}

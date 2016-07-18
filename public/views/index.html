@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="xiApp">
+  <head>
+    <meta charset="utf-8">
+    <title>We are Xi.</title>
+    <link href="dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="angular.js" charset="utf-8"></script>
+    <script src="angular-route.js" charset="utf-8"></script>
+    <script src="js/MainController.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="MainController">
+    <header><h1>Xi Cohort</h1></header>
+    <main>
+      <button class="btn btn-lg btn-xi" ng-click="getStudents()">Get Students</button>
+      <h2 ng-repeat="student in students" ng-class-odd="'odd'" ng-class-even="'even'">{{student}}</h2>
+    </main>
+  </body>
+</html>
